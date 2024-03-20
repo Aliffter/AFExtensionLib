@@ -1,0 +1,6 @@
+framework module Pods_AFExtensionLib_Tests {
+  umbrella header "Pods-AFExtensionLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

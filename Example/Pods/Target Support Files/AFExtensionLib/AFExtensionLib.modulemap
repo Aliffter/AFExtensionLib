@@ -1,0 +1,6 @@
+framework module AFExtensionLib {
+  umbrella header "AFExtensionLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
