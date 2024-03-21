@@ -22,7 +22,7 @@ pod 'AFExtensionLib'
 
 ## Author
 
-Aliffter, zhaolongxiao1991@163.com
+leo, zhaolongxiao1991@163.com
 
 ## License
 
