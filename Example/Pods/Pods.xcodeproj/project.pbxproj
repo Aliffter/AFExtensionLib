@@ -110,7 +110,7 @@
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 58647F67B9B02EF1F4B4B04CADAE5BD2 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8B874060A5E31A5D844BF3C5AB4B2D3D /* String+LocalizedBundleTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE85954C35E3DD579F24A2445323DF /* String+LocalizedBundleTableName.swift */; };
 		8BEEAE1A762E8B3F59906DB754DD4547 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF732CD027C6B2556D7E1D8C9627BA6 /* ConstraintAttributes.swift */; };
-		8C6B929304628E2149B780E0882B3D1F /* AFExtensionLib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642B06F6456CD4B50B2DB37914DB0039 /* AFExtensionLib.xcassets */; };
+		8C6B929304628E2149B780E0882B3D1F /* AFExtension.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642B06F6456CD4B50B2DB37914DB0039 /* AFExtension.xcassets */; };
 		8EE3FE6ADC167FA32FC5661BB866165A /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7283009ADEF820967B2C7A91D415B20F /* SCNVector3Extensions.swift */; };
 		8EF31C9D453ABAB14F97D9AFAB86F724 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134965D686BC25C0988F48762A6D735 /* ConstraintLayoutSupportDSL.swift */; };
 		8F3129CBC8F017CF132286E91AE9B1F1 /* AFExtensionLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B98410C3D71B1FBAAD492F5F1B4D1 /* AFExtensionLib-dummy.m */; };
@@ -361,7 +361,7 @@
 		61BDEEBD40ABB16B902FE535BE880A45 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		632DBFB46DD816694852115E442945DA /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtensions.swift; path = Sources/SwifterSwift/Foundation/NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 		63A1D0962448FCE794508B7DA2C0384C /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift; sourceTree = "<group>"; };
-		642B06F6456CD4B50B2DB37914DB0039 /* AFExtensionLib.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AFExtensionLib.xcassets; path = AFExtensionLib/Assets/AFExtensionLib.xcassets; sourceTree = "<group>"; };
+		642B06F6456CD4B50B2DB37914DB0039 /* AFExtension.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AFExtension.xcassets; path = AFExtensionLib/Assets/AFExtension.xcassets; sourceTree = "<group>"; };
 		650182EB6DD13A808BF93DEE4E47A94E /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
 		65DBA3C930978AD7301FF54614BB7078 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtensions.swift; path = Sources/SwifterSwift/UIKit/UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
 		666F62E4E99C55973176D28AA99C4CC9 /* CGAffineTransformExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAffineTransformExtensions.swift; path = Sources/SwifterSwift/CoreGraphics/CGAffineTransformExtensions.swift; sourceTree = "<group>"; };
@@ -457,7 +457,6 @@
 		B90AE1F079516B1976384E144F8D7A19 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B93523F1F62793ADDB883C92279DEFF7 /* RandomAccessCollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCollectionExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/RandomAccessCollectionExtensions.swift; sourceTree = "<group>"; };
 		BAA5EF64990F587ED49AFDFA4EF500B1 /* CalendarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarExtensions.swift; path = Sources/SwifterSwift/Foundation/CalendarExtensions.swift; sourceTree = "<group>"; };
-		BD1FE069AF01EB56121C1A45042B8F66 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE6A643B47B478E40F739E43FF925193 /* SCNBoxExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNBoxExtensions.swift; path = Sources/SwifterSwift/SceneKit/SCNBoxExtensions.swift; sourceTree = "<group>"; };
 		BEEFE7E845E8DC4BD0948F2E8BFC6E71 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemExtensions.swift; path = Sources/SwifterSwift/UIKit/UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
 		BEF1573680211EBA9BF1B8F8850A1769 /* LocaleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleExtensions.swift; path = Sources/SwifterSwift/Foundation/LocaleExtensions.swift; sourceTree = "<group>"; };
@@ -795,7 +794,7 @@
 			isa = PBXGroup;
 			children = (
 				75B41CE7D2CAE6A185493A65EBECA82F /* AFExtensionLib.swift */,
-				642B06F6456CD4B50B2DB37914DB0039 /* AFExtensionLib.xcassets */,
+				642B06F6456CD4B50B2DB37914DB0039 /* AFExtension.xcassets */,
 				5B143FDDCE64BF3B13FE336C1F05AFB4 /* Localizable.strings */,
 				7666B5099CBB5000FFAA95D61395905E /* Bundle */,
 				C88502880B8BC6A6317AC15D2AA6888A /* Pod */,
@@ -1555,7 +1554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C6B929304628E2149B780E0882B3D1F /* AFExtensionLib.xcassets in Resources */,
+				8C6B929304628E2149B780E0882B3D1F /* AFExtension.xcassets in Resources */,
 				142FCB9F52211C9464F0616412BC39B3 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1867,7 +1866,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B1283F5BB0B8627D236DE4DC1BAAD943 /* Localizable.strings */,
-				BD1FE069AF01EB56121C1A45042B8F66 /* Localizable.strings */,
 				1679E2D0DF20E0C8009919F2C97E64A5 /* Localizable.strings */,
 			);
 			name = Localizable.strings;

@@ -71,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		307B1AD12BAA7C6E0054A27D /* AFExtensionLib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = AFExtensionLib;
-			path = ../../AFExtensionLib;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +95,6 @@
 		607FACD21AFB9204008FA782 /* Example for AFExtensionLib */ = {
 			isa = PBXGroup;
 			children = (
-				307B1AD12BAA7C6E0054A27D /* AFExtensionLib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
