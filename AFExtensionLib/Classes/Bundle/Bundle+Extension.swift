@@ -29,7 +29,6 @@ extension Bundle{
             return nil
         }
         let bundle = Bundle(path: path)
-        print("currentBundle - \(bundle)")
         return bundle
     }
 }
@@ -42,6 +41,10 @@ extension UIImage{
 
 
 extension String{
+    /**
+     * 使用该方法做国际化时，
+     * 需在Progect -> Info -> Localizations 增加 Chinese, Simplified
+     */
    public func localString() -> String {
        return self.localized(in: Bundle.current())
     }
