@@ -1,5 +1,5 @@
 PODS:
-  - AFExtensionLib (0.1.0):
+  - AFExtensionLib (1.0.0):
     - Hue (~> 5.0.0)
     - Localize-Swift (~> 3.2.0)
     - SnapKit (~> 5.0.1)
@@ -60,7 +60,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFExtensionLib: d34e13dea8b46de9beaea28990895a459e55481f
+  AFExtensionLib: 18a33ba6314ca313efd054c125c13c957613f8f0
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232

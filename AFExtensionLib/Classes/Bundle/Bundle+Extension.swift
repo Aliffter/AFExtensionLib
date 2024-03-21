@@ -23,7 +23,7 @@ extension Bundle{
  
     public static func current() -> Bundle? {
         
-        guard let path = Bundle(for: AFExtensionLib.self).resourcePath?.appending("/AFExtensionLib.xcassets") else {
+        guard let path = Bundle(for: AFExtensionLib.self).resourcePath?.appending("/AFExtensionLib.bundle") else {
             print("currentBundle - nil")
 
             return nil

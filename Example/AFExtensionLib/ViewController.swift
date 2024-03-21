@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         }
         
         let lab = UILabel()
-        lab.text = "Title".localString()
+        lab.text = "Subtitle".localString()
         view.addSubview(lab)
         lab.snp.makeConstraints { make in
             make.top.equalTo(imgv.snp.bottom).offset(20)

@@ -457,6 +457,7 @@
 		B90AE1F079516B1976384E144F8D7A19 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B93523F1F62793ADDB883C92279DEFF7 /* RandomAccessCollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCollectionExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/RandomAccessCollectionExtensions.swift; sourceTree = "<group>"; };
 		BAA5EF64990F587ED49AFDFA4EF500B1 /* CalendarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarExtensions.swift; path = Sources/SwifterSwift/Foundation/CalendarExtensions.swift; sourceTree = "<group>"; };
+		BD1FE069AF01EB56121C1A45042B8F66 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE6A643B47B478E40F739E43FF925193 /* SCNBoxExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNBoxExtensions.swift; path = Sources/SwifterSwift/SceneKit/SCNBoxExtensions.swift; sourceTree = "<group>"; };
 		BEEFE7E845E8DC4BD0948F2E8BFC6E71 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemExtensions.swift; path = Sources/SwifterSwift/UIKit/UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
 		BEF1573680211EBA9BF1B8F8850A1769 /* LocaleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleExtensions.swift; path = Sources/SwifterSwift/Foundation/LocaleExtensions.swift; sourceTree = "<group>"; };
@@ -1866,6 +1867,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B1283F5BB0B8627D236DE4DC1BAAD943 /* Localizable.strings */,
+				BD1FE069AF01EB56121C1A45042B8F66 /* Localizable.strings */,
 				1679E2D0DF20E0C8009919F2C97E64A5 /* Localizable.strings */,
 			);
 			name = Localizable.strings;
@@ -2060,6 +2062,71 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65AB3871F1F309C60E226EFD4FFFA049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837EF095A77DC6629C73ECE657510C59 /* AFExtensionLib.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFExtensionLib/AFExtensionLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib.modulemap";
+				PRODUCT_MODULE_NAME = AFExtensionLib;
+				PRODUCT_NAME = AFExtensionLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66C373CED09975921FAFD2723C4971D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76F728965B7030241B8FA0FBEF838AD /* AFExtensionLib.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFExtensionLib/AFExtensionLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib.modulemap";
+				PRODUCT_MODULE_NAME = AFExtensionLib;
+				PRODUCT_NAME = AFExtensionLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2306,38 +2373,6 @@
 			};
 			name = Release;
 		};
-		A30AD4CCAE09347A0964882DF8B95748 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 837EF095A77DC6629C73ECE657510C59 /* AFExtensionLib.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFExtensionLib/AFExtensionLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib.modulemap";
-				PRODUCT_MODULE_NAME = AFExtensionLib;
-				PRODUCT_NAME = AFExtensionLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AF4E3CFF9E3677FC414F6CC9F3206556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 837EF095A77DC6629C73ECE657510C59 /* AFExtensionLib.debug.xcconfig */;
@@ -2488,39 +2523,6 @@
 			};
 			name = Debug;
 		};
-		B707689C1989F34E0D4C584C1431BA1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A76F728965B7030241B8FA0FBEF838AD /* AFExtensionLib.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFExtensionLib/AFExtensionLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFExtensionLib/AFExtensionLib.modulemap";
-				PRODUCT_MODULE_NAME = AFExtensionLib;
-				PRODUCT_NAME = AFExtensionLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BDD10B888F392ACEA1D5FD8C3A05FD46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5754ECAB08F1F6CE23AE4C746F9D9C15 /* SnapKit.release.xcconfig */;
@@ -2605,8 +2607,8 @@
 		901642EF89D4AA598036D9ED0574978D /* Build configuration list for PBXNativeTarget "AFExtensionLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A30AD4CCAE09347A0964882DF8B95748 /* Debug */,
-				B707689C1989F34E0D4C584C1431BA1C /* Release */,
+				65AB3871F1F309C60E226EFD4FFFA049 /* Debug */,
+				66C373CED09975921FAFD2723C4971D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
